@@ -8,7 +8,9 @@ The repository is base on 7-Zip 16.04, you can download it from https://sourcefo
 Changes files include:
 
 CPP/7zip/Archive/DllExports2.cpp
+
 CPP/7zip/Crypto/MyAes.h 
+
 CPP/7zip/Crypto/RarAes.h 
 
 Discussion:
@@ -17,6 +19,7 @@ https://sourceforge.net/p/sevenzip/bugs/2030/
 
 git diff:
 
+```
 diff --git a/7z1604-src/CPP/7zip/Archive/DllExports2.cpp b/7zip_fix/CPP/7zip/Archive/DllExports2.cpp
 index c43e72a..2d8fb0e 100755
 --- a/7z1604-src/CPP/7zip/Archive/DllExports2.cpp
@@ -184,3 +187,4 @@ index 0f5bd41..499e266 100755
  public:
    /*
    MY_UNKNOWN_IMP1(
+```
