@@ -24,6 +24,7 @@
 
 //
 // fooofei 2017.01.09
+// report memory leak at the library be freed 
 #ifdef _DEBUG
 #include <stdio.h>
 #include "detectmemleak.h"
